@@ -1,0 +1,18 @@
+{
+  "editor.defaultFormatter": "trunk.io",
+  "files.associations": {
+    "**/.azurepipelines/*.yml": "azure-pipelines",
+    "**LICENSE*.jinja": "jinja",
+    "**.all-contributorsrc*.jinja": "jinja-json",
+    "**.json*.jinja": "jinja-json",
+    "**.md*.jinja*": "jinja-md",
+    "copier.yml": "jinja-yaml",
+    "**.y*ml*.jinja": "jinja-yaml",
+    "**.json[{]% endif %[}]": "json",
+    "**.md[{]% endif %[}]": "markdown",
+    "**.y*ml[{]% endif %[}]": "yaml",
+    "**.py[{]% endif %[}]": "python",
+    "**.toml[{]% endif %[}]": "toml"
+  }
+
+}

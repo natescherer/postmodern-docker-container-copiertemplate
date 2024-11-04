@@ -1,0 +1,17 @@
+# Changes here will be overwritten by Copier
+_commit: v0.3.9
+_src_path: gh:natescherer/postmodern-repo-copiertemplate
+author_name: Nate Scherer
+developer_platform: GitHub
+github_org: ''
+github_username: natescherer
+license: MIT
+lifecycle: Pre-Alpha
+project_name: Postmodern Docker Container Copier Template
+project_short_description: A template for repositories that build, test, and publish
+    Docker containers on a schedule.
+project_type: Template
+project_visibility: Public
+project_website: ''
+repo_actions: None
+repo_name: postmodern-docker-container-copiertemplate
