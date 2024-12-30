@@ -6,3 +6,8 @@ dummy_question:
   help: This needs to be here so the template doesn't break, but you can replace it with your own questions.
   default: true
   when: false
+
+developer_platform:
+  type: str
+  help: The platform where you are going to host your Git repo and CI/CD. This value should not be changed on update.
+  default: GitHub

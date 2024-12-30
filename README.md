@@ -2,8 +2,8 @@
 
 [![All Contributors](https://img.shields.io/github/all-contributors/natescherer/postmodern-docker-container-copiertemplate?color=ee8449&style=flat-square)](#contributors)
 
-| :exclamation:  Notice: This project is currently in a Pre-Alpha state and is not ready for public use.  |
-|-----------------------------------------|
+| :exclamation: Notice: This project is currently in a Pre-Alpha state and is not ready for public use. |
+| ----------------------------------------------------------------------------------------------------- |
 
 A template for repositories that build, test, and publish Docker containers on a schedule.
 
@@ -16,8 +16,8 @@ A template for repositories that build, test, and publish Docker containers on a
 - GitHub **Recommended**
   - Creating repos under both users and orgs is supported
   - See [GitHub Org Limitations](docs/github_org_limitations.md) for details about template features excluded for Orgs
-- Azure DevOps
-  - See [Azure DevOps Limitations](docs/azure_devops_limitations.md) for details about features missing for AzDO
+- ~~Azure DevOps~~ _Azure DevOps support is not currently implemented for this template_
+- ~~See [Azure DevOps Limitations](docs/azure_devops_limitations.md) for details about features missing for AzDO~~
 
 #### Support for Public (Open-Source) and Private (Closed-Source) Repositories
 
