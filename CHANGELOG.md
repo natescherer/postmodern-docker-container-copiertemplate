@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.8](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.7...v0.1.8) (2024-12-31)
+
+
+### Features
+
+* Add 'chore' commit type to changelog so renovate updates will track for containers ([6aeb319](https://github.com/natescherer/postmodern-docker-container-copiertemplate/commit/6aeb319e7f2554f8e5075ebeb4c58b731d58191d))
+
 ## [0.1.7](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.6...v0.1.7) (2024-12-31)
 
 
