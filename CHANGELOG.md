@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.2...v0.1.3) (2024-12-31)
+
+
+### Bug Fixes
+
+* Quote tag match for docker push workflow ([b65f43c](https://github.com/natescherer/postmodern-docker-container-copiertemplate/commit/b65f43c16d54754c7797b2d473614c85c6104097))
+
 ## [0.1.2](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.1...v0.1.2) (2024-12-31)
 
 
