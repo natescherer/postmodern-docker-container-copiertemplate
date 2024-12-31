@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.5](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.4...v0.1.5) (2024-12-31)
+
+
+### Bug Fixes
+
+* Fix renovate dockerfile management ([185a13c](https://github.com/natescherer/postmodern-docker-container-copiertemplate/commit/185a13c8467a1918e3d28c3164c5262e096952c1))
+* Switch versioning scheme for ubuntu packages ([775a732](https://github.com/natescherer/postmodern-docker-container-copiertemplate/commit/775a7322589c298132f5a060aa2f0823b0d8c3d9))
+* Update dockerfile custom manager for renovate ([a5f41ae](https://github.com/natescherer/postmodern-docker-container-copiertemplate/commit/a5f41ae4bc74e0ab0e6fea1227718c8a6ec3bcac))
+
 ## [0.1.4](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.3...v0.1.4) (2024-12-31)
 
 
