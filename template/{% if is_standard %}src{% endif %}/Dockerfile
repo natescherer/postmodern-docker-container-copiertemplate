@@ -1,7 +1,7 @@
 FROM ubuntu:24.04
 
 # renovate: datasource=repology depName=ubuntu_24_04/nano versioning=deb
-ENV NANO_VERSION=7.2
+ENV NANO_VERSION=7.2-2build1
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
