@@ -9,6 +9,15 @@ A template for repositories that build, test, and publish Docker containers on a
 
 ## Included Features
 
+### Docker
+
+- Registry Support:
+  - GitHub Container Registry (GHCR)
+- Building for both amd64 and arm64 processors
+- Automatic Semantic Versioning
+- Automatic CI builds and pushes for every merge to Main
+- Automatic attestation generation and publishing
+
 ### Core
 
 #### Support for Multiple CI/CD Platforms
