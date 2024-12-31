@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.3...v0.1.4) (2024-12-31)
+
+
+### Features
+
+* Apply parent template v0.3.19 ([ead3320](https://github.com/natescherer/postmodern-docker-container-copiertemplate/commit/ead332002bf5c02746992ceeeaf748776bdbf1e4))
+
 ## [0.1.3](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.2...v0.1.3) (2024-12-31)
 
 
