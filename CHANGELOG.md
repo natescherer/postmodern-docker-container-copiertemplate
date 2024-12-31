@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.7](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.6...v0.1.7) (2024-12-31)
+
+
+### Features
+
+* Add ci builds ([449f7f4](https://github.com/natescherer/postmodern-docker-container-copiertemplate/commit/449f7f4d94d1efbefeb40aab15b737ce80a8a8c1))
+
 ## [0.1.6](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.5...v0.1.6) (2024-12-31)
 
 
