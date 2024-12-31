@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.0...v0.1.1) (2024-12-31)
+
+
+### Bug Fixes
+
+* Fix renovate jinja ([3310d6d](https://github.com/natescherer/postmodern-docker-container-copiertemplate/commit/3310d6deafa5cf8e7aaaabe3ee8528123af677b1))
+
 ## [0.1.0](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.0.1...v0.1.0) (2024-12-31)
 
 
