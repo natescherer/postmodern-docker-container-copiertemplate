@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.6](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.5...v0.1.6) (2024-12-31)
+
+
+### Bug Fixes
+
+* Fix sample cmd in dockerfile ([21dcf2b](https://github.com/natescherer/postmodern-docker-container-copiertemplate/commit/21dcf2b248087d13ea9d7e9f63aef5b3f78b810b))
+
 ## [0.1.5](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.4...v0.1.5) (2024-12-31)
 
 
