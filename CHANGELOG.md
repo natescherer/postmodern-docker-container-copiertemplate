@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.1...v0.1.2) (2024-12-31)
+
+
+### Bug Fixes
+
+* Fix src directory ([f344c17](https://github.com/natescherer/postmodern-docker-container-copiertemplate/commit/f344c17cb00274fbce7af4ddf84bbb64373b5757))
+
 ## [0.1.1](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.0...v0.1.1) (2024-12-31)
 
 
