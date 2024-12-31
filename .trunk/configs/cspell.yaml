@@ -40,6 +40,7 @@ words:
   - pscore
   - pydoclint
   - pyupgrade
+  - infisical
 patterns:
   - name: devcontainer-features
     pattern: "\"features\": {(.|\\n)*}"
