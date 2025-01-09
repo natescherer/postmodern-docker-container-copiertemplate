@@ -23,8 +23,10 @@
   - GitHub Container Registry (GHCR)
 - Building for both amd64 and arm64 processors
 - Automatic Semantic Versioning
-- Automatic CI builds and pushes for every merge to Main
+- Automatic CI builds and pushes for whenever "src/**" is changed on main branch
+- Automatic release builds and pushes whenever [Release Please](https://github.com/marketplace/actions/release-please-action) pushes a new "v*" tag
 - Automatic attestation generation and publishing
+- Dockerfile Linting via [hadolint](https://github.com/hadolint/hadolint)
 
 ### Core
 
@@ -58,18 +60,21 @@ It is highly encouraged for you to take this template and make your own child te
 - Setting of repo settings & branch protection rules
 - Creation of useful non-default issue labels: `awaiting pr` and `blocked`
 - Contributor management and crediting via [All Contributors](https://allcontributors.org/)
- Dependency updates via [Renovate](https://github.com/marketplace/renovate/)
+- Dependency updates via [Renovate](https://github.com/marketplace/renovate/)
 - Scheduled checks for updates from parent template
 
 ### Code Management and Formatting
 
 - Automatic code linting and formatting via [Trunk](https://trunk.io):
-  - Dockerfile linting via [hadolint](https://github.com/hadolint/hadolint)
   - GitHub Actions linting via [actionlint](https://github.com/rhysd/actionlint)
-  - Markdown linting via [markdownlint](https://github.com/DavidAnson/markdownlint) and formatting via [Prettier](https://prettier.io/)
+  - Markdown link health checking via [markdown-link-check](https://github.com/tcort/markdown-link-check)
+  - Markdown formatting via [Prettier](https://prettier.io/)
+  - Markdown linting via [markdownlint](https://github.com/DavidAnson/markdownlint)
   - Python linting and formatting via [Ruff](https://github.com/astral-sh/ruff)
   - Spell checking via [cSpell](https://cspell.org/)
-  - YAML linting iva [yamllint](https://github.com/adrienverge/yamllint) and formatting via [Prettier](https://prettier.io/)
+  - TOML linting via [taplo](https://github.com/tamasfe/taplo)
+  - YAML formatting via [Prettier](https://prettier.io/)
+  - YAML linting via [yamllint](https://github.com/adrienverge/yamllint)
 
 ### CI/CD
 
@@ -100,6 +105,7 @@ Contributions and bug reports are gladly accepted! Please see [CONTRIBUTING.md](
 ## Contributors
 
 <!-- spell-checker:disable -->
+<!-- markdown-link-check-disable -->
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -108,6 +114,7 @@ Contributions and bug reports are gladly accepted! Please see [CONTRIBUTING.md](
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- markdown-link-check-enable -->
 <!-- spell-checker:enable -->
 
 This project follows the [all-contributors](https://allcontributors.org) specification.
