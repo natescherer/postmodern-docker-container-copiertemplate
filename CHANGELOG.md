@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.9](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.8...v0.1.9) (2025-01-09)
+
+
+### Features
+
+* Update workflows to remove extraneous builds ([46adeda](https://github.com/natescherer/postmodern-docker-container-copiertemplate/commit/46adedab057f923cceff2e6f06c7c05c2efc8f40))
+
 ## [0.1.8](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.7...v0.1.8) (2024-12-31)
 
 
