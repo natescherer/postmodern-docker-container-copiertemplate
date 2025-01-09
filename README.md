@@ -18,7 +18,9 @@ A template for repositories that build, test, and publish Docker containers on a
 - Automatic CI builds and pushes for whenever "src/\*\*" is changed on main branch
 - Automatic release builds and pushes whenever [Release Please](https://github.com/marketplace/actions/release-please-action) pushes a new "v\*" tag
 - Automatic attestation generation and publishing
-- Dockerfile Linting via [hadolint](https://github.com/hadolint/hadolint)
+- Dockerfile linting via [hadolint](https://github.com/hadolint/hadolint)
+- Shell script formatting via [shfmt](https://github.com/mvdan/sh)
+- Shell script linting via [ShellCheck](https://github.com/koalaman/shellcheck)
 
 ### Core
 
