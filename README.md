@@ -15,8 +15,10 @@ A template for repositories that build, test, and publish Docker containers on a
   - GitHub Container Registry (GHCR)
 - Building for both amd64 and arm64 processors
 - Automatic Semantic Versioning
-- Automatic CI builds and pushes for every merge to Main
+- Automatic CI builds and pushes for whenever "src/\*\*" is changed on main branch
+- Automatic release builds and pushes whenever [Release Please](https://github.com/marketplace/actions/release-please-action) pushes a new "v\*" tag
 - Automatic attestation generation and publishing
+- Dockerfile Linting via [hadolint](https://github.com/hadolint/hadolint)
 
 ### Core
 
