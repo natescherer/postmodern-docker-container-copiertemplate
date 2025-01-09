@@ -9,11 +9,15 @@
       "release-type": "simple",
       "changelog-path": "CHANGELOG.md"
     }
-  }{% if is_standard %},
+  }{% if is_template %},
   "changelog-sections": [
     { "type": "feat", "section": "Features", "hidden": false },
     { "type": "fix", "section": "Bug Fixes", "hidden": false },
     { "type": "chore", "section": "Miscellaneous", "hidden": false }
-  ]
-  {%- endif %}
+  ]{% elif is_standard %},
+  "changelog-sections": [
+    { "type": "feat", "section": "Features", "hidden": false },
+    { "type": "fix", "section": "Bug Fixes", "hidden": false },
+    { "type": "chore", "section": "Miscellaneous", "hidden": false }
+  ]{% endif %}
 }
