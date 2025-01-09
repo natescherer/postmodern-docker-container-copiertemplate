@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.10](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.9...v0.1.10) (2025-01-09)
+
+
+### Features
+
+* Copier update to parent template v0.3.37 ([5f293b5](https://github.com/natescherer/postmodern-docker-container-copiertemplate/commit/5f293b5e4292d2e6d1ac94538b1223017691c834))
+
+
+### Miscellaneous
+
+* **deps:** Pin ubuntu docker tag to 80dd3c3 ([04b213f](https://github.com/natescherer/postmodern-docker-container-copiertemplate/commit/04b213f743792e9fb85801d1cac21b5e588085bc))
+
 ## [0.1.9](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.8...v0.1.9) (2025-01-09)
 
 
