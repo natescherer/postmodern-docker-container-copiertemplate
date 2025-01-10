@@ -14,6 +14,7 @@ A template for repositories that build, test, and publish Docker containers on a
 - Registry Support:
   - GitHub Container Registry (GHCR)
 - Building for both amd64 and arm64 processors
+- Entrypoint script set up to dynamically match UID and GID between host and container to solve permission issues with bind mounts on Linux hosts
 - Automatic Semantic Versioning
 - Automatic CI builds and pushes for whenever "src/\*\*" is changed on main branch
 - Automatic release builds and pushes whenever [Release Please](https://github.com/marketplace/actions/release-please-action) pushes a new "v\*" tag
