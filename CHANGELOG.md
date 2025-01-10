@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.12](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.11...v0.1.12) (2025-01-10)
+
+
+### Bug Fixes
+
+* Fix GID reporting in entrypoint ([e1a6789](https://github.com/natescherer/postmodern-docker-container-copiertemplate/commit/e1a678979bc36b8e5f3fe2033cd0f31e345b7f7d))
+
 ## [0.1.11](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.10...v0.1.11) (2025-01-10)
 
 
