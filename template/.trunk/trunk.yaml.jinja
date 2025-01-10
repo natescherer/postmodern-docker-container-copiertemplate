@@ -41,6 +41,10 @@ lint:
     {%- if is_template %}
     - ruff@0.8.6:
         commands: [lint, format]
+    {%- endif %}
+    - shellcheck@0.10.0
+    - shfmt@3.6.0
+    {%- if is_template %}
     - taplo@0.9.3
     {%- endif %}
     - yamllint@1.35.1
