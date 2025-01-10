@@ -37,6 +37,7 @@ words:
   # GitHub Username
   - natescherer
   # Code Terms
+  - gosu
   - infisical
   - pydoclint
   - pyupgrade
