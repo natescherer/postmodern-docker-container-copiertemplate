@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.1.11](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.10...v0.1.11) (2025-01-10)
+
+
+### Features
+
+* Add entrypoint to map UID and GID ([8142b52](https://github.com/natescherer/postmodern-docker-container-copiertemplate/commit/8142b522f82ee056a84b22ff116e773477e7fe14))
+* Add shellcheck and shfmt ([74fe1ee](https://github.com/natescherer/postmodern-docker-container-copiertemplate/commit/74fe1ee55fd4bb35dbfdaec2ef0403a564addcfc))
+* Refactor gosu install to use curl ([fc09fb5](https://github.com/natescherer/postmodern-docker-container-copiertemplate/commit/fc09fb5763487dfad2040bdef00578849a0a955f))
+
+
+### Bug Fixes
+
+* Fix typo ([a13a3e9](https://github.com/natescherer/postmodern-docker-container-copiertemplate/commit/a13a3e95b83216cf9cbf09279117daeb6e158593))
+
 ## [0.1.10](https://github.com/natescherer/postmodern-docker-container-copiertemplate/compare/v0.1.9...v0.1.10) (2025-01-09)
 
 
