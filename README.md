@@ -2,8 +2,15 @@
 
 [![All Contributors](https://img.shields.io/github/all-contributors/natescherer/postmodern-docker-container-copiertemplate?color=ee8449&style=flat-square)](#contributors)
 
+<<<<<<< before updating
 | :exclamation: Notice: This project is currently in a Pre-Alpha state and is not ready for public use. |
 | ----------------------------------------------------------------------------------------------------- |
+=======
+<!-- prettier-ignore-start -->
+| :exclamation: Notice: This project is currently in a Pre-Alpha state and is not ready for public use. |
+| ------------------------------------------------------------------------------------ |
+<!-- prettier-ignore-end -->
+>>>>>>> after updating
 
 A template for repositories that build, test, and publish Docker containers on a schedule.
 
@@ -28,10 +35,17 @@ A template for repositories that build, test, and publish Docker containers on a
 #### Support for Multiple CI/CD Platforms
 
 - GitHub **Recommended**
+<<<<<<< before updating
   - Creating repos under both users and orgs is supported
   - See [GitHub Org Limitations](docs/github_org_limitations.md) for details about template features excluded for Orgs
 - ~~Azure DevOps~~ _Azure DevOps support is not currently implemented for this template_
 - ~~See [Azure DevOps Limitations](docs/azure_devops_limitations.md) for details about features missing for AzDO~~
+=======
+    - Creating repos under both users and orgs is supported
+    - See [GitHub Org Limitations](docs/github_org_limitations.md) for details about template features excluded for Orgs
+- Azure DevOps
+    - See [Azure DevOps Limitations](docs/azure_devops_limitations.md) for details about features missing for AzDO
+>>>>>>> after updating
 
 #### Support for Public (Open-Source) and Private (Closed-Source) Repositories
 
@@ -60,16 +74,16 @@ It is highly encouraged for you to take this template and make your own child te
 
 ### Code Management and Formatting
 
-- Automatic code linting and formatting via [Trunk](https://trunk.io):
-  - GitHub Actions linting via [actionlint](https://github.com/rhysd/actionlint)
-  - Markdown link health checking via [markdown-link-check](https://github.com/tcort/markdown-link-check)
-  - Markdown formatting via [Prettier](https://prettier.io/)
-  - Markdown linting via [markdownlint](https://github.com/DavidAnson/markdownlint)
-  - Python linting and formatting via [Ruff](https://github.com/astral-sh/ruff)
-  - Spell checking via [cSpell](https://cspell.org/)
-  - TOML linting via [taplo](https://github.com/tamasfe/taplo)
-  - YAML formatting via [Prettier](https://prettier.io/)
-  - YAML linting via [yamllint](https://github.com/adrienverge/yamllint)
+- Automatic, repository-local dev tool installation via [mise](https://github.com/jdx/mise)
+- Automatic code linting and formatting via [hk](https://github.com/jdx/hk):
+    - Commit message linting via [committed](https://github.com/crate-ci/committed)
+    - GitHub Actions linting via [actionlint](https://github.com/rhysd/actionlint)
+    - Markdown link health checking via [lychee](https://github.com/lycheeverse/lychee)
+    - Markdown linting via [mado](https://github.com/akiomik/mado)
+    - Python linting and formatting via [Ruff](https://github.com/astral-sh/ruff)
+    - Spell checking via [typos](https://github.com/crate-ci/typos)
+    - TOML linting and formatting via [Taplo](https://github.com/tamasfe/taplo)
+    - YAML linting via [yamllint](https://github.com/adrienverge/yamllint)
 
 ### CI/CD
 
@@ -86,7 +100,7 @@ It is highly encouraged for you to take this template and make your own child te
 
 ## Getting started
 
-Intersted in using this template (or just learning more about it)? Check out [Getting Started](docs/getting_started.md).
+Interested in using this template (or just learning more about it)? Check out [Getting Started](docs/getting_started.md).
 
 ## Questions/Comments
 
@@ -99,7 +113,6 @@ Contributions and bug reports are gladly accepted! Please see [CONTRIBUTING.md](
 ## Contributors
 
 <!-- spell-checker:disable -->
-<!-- markdown-link-check-disable -->
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -115,7 +128,6 @@ Contributions and bug reports are gladly accepted! Please see [CONTRIBUTING.md](
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-<!-- markdown-link-check-enable -->
 <!-- spell-checker:enable -->
 
 This project follows the [all-contributors](https://allcontributors.org) specification.
