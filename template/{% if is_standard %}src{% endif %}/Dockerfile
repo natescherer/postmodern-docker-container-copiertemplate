@@ -8,7 +8,7 @@ ENV RENOVATE_CA_CERTIFICATES_VERSION=20240203
 ENV RENOVATE_CURL_VERSION=8.5.0-2ubuntu10.6
 
 # renovate: datasource=github-releases depName=tianon/gosu
-ENV RENOVATE_GOSU_VERSION=1.17
+ENV RENOVATE_GOSU_VERSION=1.19
 
 # renovate: datasource=repology depName=ubuntu_24_04/nano versioning=loose
 ENV RENOVATE_NANO_VERSION=7.2-2ubuntu0.1
