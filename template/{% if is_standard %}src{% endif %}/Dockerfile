@@ -11,7 +11,7 @@ ENV RENOVATE_CURL_VERSION=8.5.0-2ubuntu10.6
 ENV RENOVATE_GOSU_VERSION=1.17
 
 # renovate: datasource=repology depName=ubuntu_24_04/nano versioning=loose
-ENV RENOVATE_NANO_VERSION=7.2-2ubuntu0.1
+ENV RENOVATE_NANO_VERSION=7.2-2ubuntu0.2
 
 
 ENV DEBIAN_FRONTEND=noninteractive
